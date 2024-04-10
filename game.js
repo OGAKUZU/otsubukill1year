@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         enemies.forEach(function(enemy) {
             ctx.fillStyle = 'saddlebrown';
             ctx.font = '16px Arial';
-            ctx.fillText('バーキン', enemy.x, enemy.y + enemy.height);
+            ctx.fillText('せくしー', enemy.x, enemy.y + enemy.height);
         });
     }
 
